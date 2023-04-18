@@ -1,0 +1,27 @@
+.main_container_border {
+	border: 5px inset #1C6EA4;
+	border-radius: 20px;
+}
+ 
+ #container_header {
+	background-color: yellow;
+	border: 5px inset #1C6EA4;
+	border-radius: 20px;
+	width: 49%;
+	color: black;
+}
+#container_footer {
+	background-color: yellow;
+	border: 5px inset #1C6EA4;
+	border-radius: 20px;
+	width: 49%;
+	color: black;
+}
+#container_content {
+	background-color: yellow;
+	border: 5px inset #1C6EA4;
+	border-radius: 20px;
+	width: 49%;
+	height: 79%;
+	color: black;
+}

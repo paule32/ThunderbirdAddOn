@@ -1,0 +1,37 @@
+{
+	"manifest_version": 2,
+	"name": "Mathe-Mator",
+	"description": "A mathematical fun Project by paule32",
+	"version": "1.0",
+	"author": "Jens Kallup",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "composebody@kallup.zapto.org",
+			"strict_min_version": "78.0"
+		}
+	},
+	"browser_action": {
+		"default_popup": "browser/popup.html",
+		"default_title": "Mathe-Mator",
+		"default_icon" : "images/mathe32.png"
+	},
+	"compose_action": {
+		"default_title": "Mathe-Mator"
+	},
+	"background": {
+		"page": "background.html"
+	},
+	"options_ui": {
+		"page": "options/options.html",
+		"open_in_tab": false,
+		"browser_style": true
+	},
+	"icons": {
+		"64": "images/mathe64.png",
+		"32": "images/mathe32.png",
+		"16": "images/mathe16.png"
+	},
+	"permissions": [
+		"compose"
+	]
+}
