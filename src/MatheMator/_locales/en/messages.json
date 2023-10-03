@@ -1,0 +1,10 @@
+{
+  "testlocalestring": {
+    "message": "Show this Text",
+    "description": "only a test"
+  },
+  "asecondstring": {
+    "message": "shows a second Text",
+    "description": "a 2th test."
+  }
+}

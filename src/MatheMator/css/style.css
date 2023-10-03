@@ -1,0 +1,41 @@
+#container {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+#content {
+  background-color: cyan;
+  width: 50%;
+  height: 100%;
+  overflow: scroll;
+  padding: 5px;
+  width: 400px;
+  height: 234px;
+  float: left;
+}
+
+#userinput {
+  float:left;
+}
+
+#div_btn_preview {
+  float: left;
+}
+
+#div_btn_send {
+  float: right;
+}
+
+#span_top    {
+  background-color: gray;
+}
+#span_bottom {
+  background-color: gray;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+#span_spacer {
+  width: 280px;
+}

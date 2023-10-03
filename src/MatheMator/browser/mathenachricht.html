@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- This HTML script was created by: Jens Kallup - paule32.
+  -- (c) 2023 kallup non-profit.
+  -- all rights reserved.
+  --
+  -- only for Education or for non-profit use.
+  -->
+<html>
+  <head>
+    <title>de.sci.mathe 2023</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="content">
+        <tt>
+          A Example:
+          <p style="text-align:left;">
+            $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+          </p>
+        </tt>
+      </div>
+      <div id="userinput">
+        <div style="background-color:yellow;">
+          <tt>
+            <!-- debug: show user the parsed lines...-->
+            <span id="lines">parsed lines: 0</span>
+          </tt>
+        </div>
+        <div>
+          <div id="span_top">&nbsp;</div>
+          <!-- there is our user input box -->
+          <textarea id="source" rows="10" cols="56">// a comment
+          </textarea>
+          <div id="span_bottom">
+            <div id="div_btn_preview">&nbsp;</div>
+            <div>
+              <!-- if this button is clicked, then start the parser... -->
+              <button id="btn_preview">Preview</button>
+            </div>
+            <div id="span_spacer">&nbsp;</div>
+            <div id="div_btn_send">
+              <!-- if this button is clicked, then send the message... -->
+              <button id="btn_send">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- E-O-F  -  end of file -->

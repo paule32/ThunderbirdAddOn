@@ -23,7 +23,7 @@
 	},
 	"options_ui": {
 		"page": "options/options.html",
-		"open_in_tab": false,
+		"open_in_tab": true,
 		"browser_style": true
 	},
 	"icons": {
@@ -31,7 +31,46 @@
 		"32": "images/mathe32.png",
 		"16": "images/mathe16.png"
 	},
+
+	"default_locale": "en",
+
 	"permissions": [
-		"compose"
+            "file:///*/*",
+        
+        	"accountsFolders",
+        	"accountsRead",
+        	"activeTab",
+        	"addressBooks",
+        	"alarms",
+        	"browserSettings",
+        	"clipboardRead",
+        	"clipboardWrite",
+        	"compose",
+        	"contextualIdentities",
+        	"cookies",
+        	"dns",
+        	"downloads",
+        	"downloads.open",
+        	"geolocation",
+        	"idle",
+        	"management",
+        	"menus",
+        	"menus.overrideContext",
+        	"messagesMove",
+        	"messagesRead",
+        	"messagesModify",
+        	"nativeMessaging",
+        	"notifications",
+        	"pkcs11",
+        	"privacy",
+        	"proxy",
+        	"storage",
+        	"tabHide",
+        	"tabs",
+        	"theme",
+        	"unlimitedStorage",
+        	"webNavigation",
+        	"webRequest",
+        	"webRequestBlocking"
 	]
 }

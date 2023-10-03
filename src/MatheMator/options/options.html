@@ -1,3 +1,14 @@
-dsfdsfdsfsfsdf
-dsfdsf
-dsf
+<script>
+
+function handle_opt_en() {
+  document.write('english options');
+}
+function handle_opt_de() {
+  document.write('deutsch optionen');
+}
+if (UILanguage == "en") { handle_opt_en(); } else
+if (UILanguage == "de") { handle_opt_de(); } else { handle_opt_misc(); }
+
+</script>
+
+this is the option page
